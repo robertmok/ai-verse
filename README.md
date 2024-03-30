@@ -20,9 +20,10 @@
 
 ### Prerequisites
 
+- [AI Verse API](https://github.com/robertmok/ai-verse-api/tree/master?tab=readme-ov-file)
 - WIP
 
-## Quickstart
+### Quickstart
 
 - WIP
 
