@@ -1,0 +1,69 @@
+<mat-toolbar color="primary">
+  <span>AI VERSE</span>
+</mat-toolbar>
+<div class="main">
+  @if (serverMessage) {
+  <mat-card class="serverError">
+    <mat-card-content>
+      <p>
+        <mat-icon color="warn">warning</mat-icon>
+        {{ serverMessage }}
+      </p>
+    </mat-card-content>
+  </mat-card>
+  }
+  <form [formGroup]="systemConfigForm" (ngSubmit)="onSubmit()">
+    <div class="config">
+      <h3>System Behavior Config</h3>
+      <p>
+        <mat-form-field appearance="outline">
+          <mat-label>Set Gemma LLM Behavior</mat-label>
+          <input matInput placeholder="Enter the system behavior for Gemma" formControlName="gemmaBehavior">
+          <mat-icon matSuffix>manage_accounts</mat-icon>
+          @if (systemConfigForm.get('gemmaBehavior')?.hasError('required')) {
+          <mat-error>Please enter a behavior</mat-error>
+          }
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field appearance="outline">
+          <mat-label>Set Orca LLM Behavior</mat-label>
+          <input matInput placeholder="Enter the system behavior for Orca" formControlName="orcaBehavior">
+          <mat-icon matSuffix>manage_accounts</mat-icon>
+          @if (systemConfigForm.get('orcaBehavior')?.hasError('required')) {
+          <mat-error>Please enter a behavior</mat-error>
+          }
+        </mat-form-field>
+      </p>
+    </div>
+    <div class="chat">
+      <p><strong>Server Connection: {{ serverStatus }}</strong></p>
+      @if (startAiSim) {
+      <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+      }
+      <mat-card>
+        <mat-card-content>
+          <div class="chatHistory" #chat [scrollTop]="scrollTop">
+            @for (msg of simHistory; track msg) {
+            <p class="chatMessage">
+              <strong>{{ msg.model }}: </strong>
+              <span>{{ msg.content }}</span>
+            </p>
+            }
+            @if (aiMessageBuffer !== '') {
+            <p class="chatMessage">
+              <strong>{{ currentModel }}: </strong>
+              <span>{{ aiMessageBuffer }}</span>
+            </p>
+            }
+            <p [class.loading]="loading === true"></p>
+          </div>
+        </mat-card-content>
+      </mat-card>
+      <div class="chatActions">
+        <button mat-raised-button color="primary" type="submit">Start Simulation</button>
+        <button mat-raised-button (click)="stopSim()" type="button">Stop Simulation</button>
+      </div>
+    </div>
+  </form>
+</div>
