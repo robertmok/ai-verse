@@ -5,10 +5,10 @@
 ## Features
 
 - You can set the system behavior of each AI before you start the simulation.
-    - Some ideas you can try:
-        - start a debate
+    - Some ideas to try:
+        - start a debate 
         - start a rap battle
-        - role play characters
+        - role play characters ex. Mario and Princess Peach
         - set scenarios like interviews
 - AI responses are displayed in real time as they are generated and received from the backend.
 
@@ -20,15 +20,22 @@
 
 ### Prerequisites
 
-- [AI Verse API](https://github.com/robertmok/ai-verse-api/tree/master?tab=readme-ov-file)
+- Clone and complete the setup for [AI Verse API](https://github.com/robertmok/ai-verse-api/tree/master?tab=readme-ov-file)
 
 ### Quickstart
 
-- WIP
+Follow the **Quickstart** section in  [AI Verse API](https://github.com/robertmok/ai-verse-api/tree/master?tab=readme-ov-file)
+and run the following commands:
+```
+npm install
+npm run start or ng serve
+```
 
 ## Limitations
 
-- WIP
+- AI chat history is stored in memory (browser)
+- As the chat goes on, the response may become more slow due to the increasing chat history being sent to LLM for context to generate a response back.
+- Using **Gemma:2b** and **Orca-mini:3b** LLM only, no support other LLMs or variants for now.
 
 
 -----
