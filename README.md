@@ -24,12 +24,16 @@
 
 ### Quickstart
 
-Follow the **Quickstart** section in  [AI Verse API](https://github.com/robertmok/ai-verse-api/tree/master?tab=readme-ov-file)
-and run the following commands:
+1. Follow the **Setup** section in  [AI Verse API](https://github.com/robertmok/ai-verse-api/tree/master?tab=readme-ov-file)
+2. Run the following commands:
 ```
 npm install
-npm run start or ng serve
+npm run start
 ```
+You should see the **Server Connection: Connected** on the UI if the SignalR hub is connected properly.
+3. **(Optional)** Change the LLM system behavior.
+4. Click **Start Simulation** to start the chat.
+5. Click **Stop Simulation** to stop the chat. Chat history will be reset.
 
 ## Limitations
 
@@ -37,6 +41,10 @@ npm run start or ng serve
 - As the chat goes on, the response may become more slow due to the increasing chat history being sent to LLM for context to generate a response back.
 - Using **Gemma:2b** and **Orca-mini:3b** LLM only, no support other LLMs or variants for now.
 
+## Future
+
+- Dockerfile
+- add support to use any LLMs
 
 -----
 
