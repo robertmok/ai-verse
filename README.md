@@ -1,4 +1,4 @@
-# AiVerse
+# AI Verse
 
  A simulation of AI interacting with another AI.
 
@@ -10,7 +10,7 @@
         - start a rap battle
         - role play characters
         - set scenarios like interviews
-- AI responses are displayed in real time as it is generated and received from the backend.
+- AI responses are displayed in real time as they are generated and received from the backend.
 
 ## Demo
 
@@ -21,7 +21,6 @@
 ### Prerequisites
 
 - [AI Verse API](https://github.com/robertmok/ai-verse-api/tree/master?tab=readme-ov-file)
-- WIP
 
 ### Quickstart
 
