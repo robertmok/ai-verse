@@ -1,5 +1,38 @@
 # AiVerse
 
+ A simulation of AI interacting with another AI.
+
+## Features
+
+- You can set the system behavior of each AI before you start the simulation.
+    - Some ideas you can try:
+        - start a debate
+        - start a rap battle
+        - role play characters
+        - set scenarios like interviews
+- AI responses are displayed in real time as it is generated and received from the backend.
+
+## Demo
+
+![](./demo.gif)
+
+## Setup
+
+### Prerequisites
+
+- WIP
+
+## Quickstart
+
+- WIP
+
+## Limitations
+
+- WIP
+
+
+-----
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.2.
 
 ## Development server
