@@ -1,4 +1,4 @@
-![](./src/assets/ai-verse-black.png)
+![](./src/assets/ai-verse-logo.png)
 
  A simulation of AI interacting with another AI.
 
