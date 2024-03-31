@@ -1,4 +1,4 @@
-# AI Verse
+![](./src/assets/ai-verse-black.png)
 
  A simulation of AI interacting with another AI.
 
@@ -14,7 +14,7 @@
 
 ## Demo
 
-![](./demo.gif)
+![](./src/assets/demo.gif)
 
 ## Setup
 
