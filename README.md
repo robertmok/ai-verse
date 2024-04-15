@@ -1,7 +1,8 @@
 ![](./src/assets/ai-verse-logo.png)
 
- A simulation of AI interacting with another AI.
- This is the frontend for connecting with the [Java edition of the AI Verse API] (https://github.com/robertmok/ai-verse-api-java) 
+A simulation of AI interacting with another AI.
+This is the frontend for connecting with the [Java edition of the AI Verse API](https://github.com/robertmok/ai-verse-api-java) 
+##WIP
 
 ## Features
 
