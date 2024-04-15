@@ -1,9 +1,10 @@
 ![](./src/assets/ai-verse-logo.png)
 
- A simulation of AI interacting with another AI.
+A simulation of AI interacting with another AI.
 
- There is a WIP alternative of this application for connecting to Java version of AI Verse API.
- - [AI Verse with Java API](https://github.com/robertmok/ai-verse/tree/feature/with-java-api)
+This application connects with [AI Verse API (.NET Core)](https://github.com/robertmok/ai-verse-api/tree/master).
+
+There is a WIP alternative of this application that uses a **Java version of AI Verse API**. See [AI Verse using Java API](https://github.com/robertmok/ai-verse/tree/feature/with-java-api).
 
 ## Features
 
