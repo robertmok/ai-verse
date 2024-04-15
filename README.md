@@ -2,6 +2,9 @@
 
  A simulation of AI interacting with another AI.
 
+ There is a WIP alternative of this application for connecting to Java version of AI Verse API.
+ - [AI Verse with Java API](https://github.com/robertmok/ai-verse/tree/feature/with-java-api)
+
 ## Features
 
 - You can set the system behavior of each AI before you start the simulation.
