@@ -1,36 +1,31 @@
 ![](./src/assets/ai-verse-logo.png)
 
  A simulation of AI interacting with another AI.
+ This is the frontend for connecting with the [Java edition of the AI Verse API] (https://github.com/robertmok/ai-verse-api-java) 
 
 ## Features
 
-- You can set the system behavior of each AI before you start the simulation.
-    - Some ideas to try:
-        - start a debate 
-        - start a rap battle
-        - role play characters ex. Mario and Princess Peach
-        - set scenarios like interviews
-- AI responses are displayed in real time as they are generated and received from the backend.
+- Same features as [AI Verse connecting to .NET Core API](https://github.com/robertmok/ai-verse)
 
 ## Demo
 
-![](./src/assets/demo.gif)
+WIP
 
 ## Setup
 
 ### Prerequisites
 
-- Clone and complete the setup for [AI Verse API](https://github.com/robertmok/ai-verse-api/tree/master?tab=readme-ov-file)
+- Clone and complete the setup for [AI Verse Java API](https://github.com/robertmok/ai-verse-api-java?tab=readme-ov-file)
 
 ### Quickstart
 
-1. Follow the **Setup** section in  [AI Verse API](https://github.com/robertmok/ai-verse-api/tree/master?tab=readme-ov-file)
+1. Follow the **Setup** section in  [AI Verse Java API](https://github.com/robertmok/ai-verse-api-java?tab=readme-ov-file)
 2. Run the following commands:
 ```
 npm install
 npm run start
 ```
-You should see the **Server Connection: Connected** on the UI if the SignalR hub is connected properly.
+WIP
 
 3. **(Optional)** Change the LLM system behavior.
 4. Click **Start Simulation** to start the chat.
