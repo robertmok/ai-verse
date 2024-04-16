@@ -50,7 +50,7 @@ You should see the **Server Connection: Connected** on the UI if the SignalR hub
 ## Future
 
 - Dockerfile
-- add support to use any LLMs
+- Add support to use any LLMs
 
 -----
 
