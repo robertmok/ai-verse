@@ -6,7 +6,7 @@ This version of the application connects with the [Java edition of the AI Verse 
 
 ## Features
 
-- Same features as [AI Verse connecting to .NET Core API](https://github.com/robertmok/ai-verse)
+- Same features as [AI Verse connecting to ASP.NET Core Web API](https://github.com/robertmok/ai-verse)
 
 ## Demo
 
