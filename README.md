@@ -40,7 +40,7 @@ npm run start
 ## Future
 
 - Dockerfile
-- add support to use any LLMs
+- Add support to use any LLMs
 
 -----
 
