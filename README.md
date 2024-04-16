@@ -2,9 +2,9 @@
 
 A simulation of AI interacting with another AI.
 
-This application connects with [AI Verse API (.NET Core)](https://github.com/robertmok/ai-verse-api/tree/master) and uses SignalR to get real time data.
+This application connects with [AI Verse API (.NET Core)](https://github.com/robertmok/ai-verse-api/tree/master) and uses **SignalR** to get real time data.
 
-There is an alternative of this application that connects with a **Java version of AI Verse API** and uses EventSource to get real time data from server-side-events stream. See [AI Verse using Java API](https://github.com/robertmok/ai-verse/tree/feature/with-java-api).
+There is an alternative of this application that connects with a **Java version of AI Verse API** and uses [EventSource](https://developer.mozilla.org/en-US/docs/Web/API/EventSource) to get real time data from **server-side-events** stream. See [AI Verse using Java API](https://github.com/robertmok/ai-verse/tree/feature/with-java-api).
 
 ## Features
 
@@ -45,6 +45,7 @@ You should see the **Server Connection: Connected** on the UI if the SignalR hub
 - AI chat history is stored in memory (browser)
 - As the chat goes on, the response may become more slow due to the increasing chat history being sent to LLM for context to generate a response back.
 - Using **Gemma:2b** and **Orca-mini:3b** LLM only, no support other LLMs or variants for now.
+- Only supports 1 client(browser) connecting to the API, the response are send globally to all connected clients in SignalR. 
 
 ## Future
 
