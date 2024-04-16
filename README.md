@@ -2,9 +2,9 @@
 
 A simulation of AI interacting with another AI.
 
-This application connects with [AI Verse API (.NET Core)](https://github.com/robertmok/ai-verse-api/tree/master).
+This application connects with [AI Verse API (.NET Core)](https://github.com/robertmok/ai-verse-api/tree/master) and uses SignalR to get real time data.
 
-There is a WIP alternative of this application that uses a **Java version of AI Verse API**. See [AI Verse using Java API](https://github.com/robertmok/ai-verse/tree/feature/with-java-api).
+There is an alternative of this application that connects with a **Java version of AI Verse API** and uses EventSource to get real time data from server-side-events stream. See [AI Verse using Java API](https://github.com/robertmok/ai-verse/tree/feature/with-java-api).
 
 ## Features
 
