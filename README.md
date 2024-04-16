@@ -2,7 +2,7 @@
 
 A simulation of AI interacting with another AI.
 
-This application connects with the [Java edition of the AI Verse API](https://github.com/robertmok/ai-verse-api-java) and uses [EventSource](https://developer.mozilla.org/en-US/docs/Web/API/EventSource) to get real time data from **server-side-events** stream.
+This version of the application connects with the [Java edition of the AI Verse API](https://github.com/robertmok/ai-verse-api-java) and uses [EventSource](https://developer.mozilla.org/en-US/docs/Web/API/EventSource) to get real time data from **server-side-events** stream.
 
 ## Features
 
