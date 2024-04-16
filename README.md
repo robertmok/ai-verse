@@ -2,9 +2,7 @@
 
 A simulation of AI interacting with another AI.
 
-This application connects with the [Java edition of the AI Verse API](https://github.com/robertmok/ai-verse-api-java) 
-
-## WIP
+This application connects with the [Java edition of the AI Verse API](https://github.com/robertmok/ai-verse-api-java) and uses [EventSource](https://developer.mozilla.org/en-US/docs/Web/API/EventSource) to get real time data from **server-side-events** stream.
 
 ## Features
 
@@ -28,8 +26,6 @@ WIP
 npm install
 npm run start
 ```
-WIP
-
 3. **(Optional)** Change the LLM system behavior.
 4. Click **Start Simulation** to start the chat.
 5. Click **Stop Simulation** to stop the chat. Chat history will be reset.
@@ -39,6 +35,7 @@ WIP
 - AI chat history is stored in memory (browser)
 - As the chat goes on, the response may become more slow due to the increasing chat history being sent to LLM for context to generate a response back.
 - Using **Gemma:2b** and **Orca-mini:3b** LLM only, no support other LLMs or variants for now.
+- Only supports 1 client(browser) connecting to the API, the **server-side-events** stream is a global response stream, it is not client or http request specific. 
 
 ## Future
 
