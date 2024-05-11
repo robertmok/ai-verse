@@ -10,7 +10,7 @@ This version of the application connects with the [Java edition of the AI Verse 
 
 ## Demo
 
-WIP
+![](./src/assets/demo.gif)
 
 ## Setup
 
